@@ -11,7 +11,7 @@ import Modes from '../components/Modes';
 
 const Practice = () => {
   return (
-    <section className={`${styles.yPaddings} ${styles.paddings} sm:pl-16 pl-6 relative z-10`}>
+    <section className={`${styles.yPaddings} ${styles.paddings} sm:pl-16 pl-6 relative z-10 h-screen`}>
     <motion.div 
     variants={staggerContainer} 
     initial="hidden" 
@@ -46,7 +46,7 @@ const Practice = () => {
         </div>
       </motion.div>
       <motion.div
-        variants={planetVariants('left')}
+        variants={planetVariants('right')}
         className={`flex-1 ${styles.flexCenter}`}
       >
           <img

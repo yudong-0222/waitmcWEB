@@ -7,7 +7,7 @@ export const exploreWorlds = [
   {
     id: 'world-2',
     imgUrl: '/sndh.png',
-    title: '【1.16.5】Search And Destroy - Close Beta',
+    title: '【1.16.5】Search And Destroy - Beta',
   },
   {
     id: 'world-3',
@@ -28,9 +28,9 @@ export const exploreWorlds = [
 
 export const startingFeatures = [
   '加入我們的Disocrd',
-  '獲取IP',
   '打開 多人遊戲',
-  '加入伺服器',
+  '輸入IP: waitmc.top',
+  '即可加入伺服器!',
 ];
 
 export const newFeatures = [
@@ -42,9 +42,9 @@ export const newFeatures = [
   },
   {
     imgUrl: '/headset.svg',
-    title: 'SND-1.0 封測',
+    title: 'SND BETA',
     subtitle:
-        '由Wait Network 製作 將FPS遊戲的爆破模式複製到Minecraft中!',
+        '由Wait Network製作 將FPS遊戲的爆破模式復刻到Minecraft中!',
   },
 ];
 
@@ -61,6 +61,28 @@ export const owner = [
   },
 ];
 
+function copy() {
+  const textToCopy = 'waitmc.top';
+
+  const tempInput = document.createElement('input');
+  tempInput.value = textToCopy;
+  document.body.appendChild(tempInput);
+
+  tempInput.select();
+  document.execCommand('copy');
+
+  document.body.removeChild(tempInput);
+
+  Swal.fire({
+    title: '複製成功',
+    text: '成功將伺服器IP複製到剪貼簿了!',
+    icon: 'success',
+    showConfirmButton: false,
+    timer: 1500,
+    toast: true,
+  });
+}
+
 export const navLinks = [
   {
     id: "/",
@@ -75,7 +97,7 @@ export const navLinks = [
     title: "FOUNDER",
   },
   {
-    id: "#footer",
+    id: "https://discord.gg/RNJQFYbjVp",
     title: "DISCORD",
   },
 ];
@@ -93,6 +115,29 @@ export const admin = [
   },
 ];
 
+export const staff = [
+  {
+    imgUrl: '/staff.png',
+    title: 'more_fei',
+    subtitle: 'CO-OWNER',
+  },
+  {
+    imgUrl: '/staff.png',
+    title: 'more23',
+    subtitle: 'CO-OWNER',
+  },
+  {
+    imgUrl: '/staff.png',
+    title: 'more_sn',
+    subtitle: 'HELPER/MOD',
+  },
+  {
+    imgUrl: '/staff.png',
+    title: 'iL4xz#0140',
+    subtitle: 'HELPER/MOD',
+  },
+];
+
 export const modes = [
   {
     imgUrl: '/adjust.svg',
@@ -104,7 +149,7 @@ export const modes = [
     imgUrl: '/modes.svg',
     title: '多種模式',
     subtitle:
-        '目前已有18種+的模式供你練習,其中還包含了一些趣味模式!我們也持續地在更新當中!',
+        '將舊版Practice插件替換成更穩定的插件。而我們也持續地在更新當中!',
   },
 ];
 
@@ -119,7 +164,7 @@ export const sndmodes = [
     imgUrl: '/gunla.svg',
     title: '特殊武器',
     subtitle:
-        'SnD將Minecraft的戰鬥模式改變了! 從現在起 大家都用槍來說話 比實力!',
+        'SnD將Minecraft的戰鬥模式改變了! 從現在起，大家都用槍枝來說話!',
   },
 ];
 

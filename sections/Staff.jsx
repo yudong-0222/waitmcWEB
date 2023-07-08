@@ -2,13 +2,11 @@ import React from 'react'
 
 import { motion } from 'framer-motion';
 
-import {modes, sndmodes, owner,admin} from '../constants'
+import {staff,owner,admin} from '../constants'
 import styles from '../styles';
-import { staggerContainer, textVariant,fadeIn,planetVariants } from '../utils/motion';
-import { CustomTexts, TitleText, TypingText } from '../components';
+import { staggerContainer, textVariant,fadeIn } from '../utils/motion';
 import Modes from '../components/Modes';
 import { TypingTitle } from '../components/CustomTexts';
-import Staffer from '../components/Staffer';
 import Staffs from '../components/Staffer';
 
 
@@ -40,7 +38,7 @@ const Staff = () => {
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       > 
-        <TypingTitle title='OWNERS 🧲' textStyles='text-center'/>
+        <TypingTitle title='OWNERS 🎇' textStyles='text-center'/>
         <div className="mt-[48px] flex flex-wrap justify-center gap-[24px]">
           {owner.map((owner) => (
             <Staffs key={owner.title} {...owner} />
@@ -50,6 +48,12 @@ const Staff = () => {
         <div className="mt-[48px] flex flex-wrap justify-center gap-[24px]">
           {admin.map((admin) => (
             <Staffs key={admin.title} {...admin} />
+          ))}
+        </div>
+        <TypingTitle title='ALL STAFF ✨' textStyles='text-center'/>
+        <div className="mt-[48px] flex flex-wrap justify-center gap-[24px]">
+          {staff.map((staff,index) => (
+            <Staffs key={staff.title} {...staff} />
           ))}
         </div>
       </motion.div>
