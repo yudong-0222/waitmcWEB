@@ -13,7 +13,7 @@ const Navbar = () => {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
-      viewport={{once: true, amount: 0.5}}
+      viewport={{ once: true, amount: 0.5 }}
       className={`${styles.xPaddings} py-8 relative`}
     >
       <div className={`${styles.innerWidth} mx-auto flex items-start gap-8`}>
@@ -34,9 +34,9 @@ const Navbar = () => {
               <a href={`${nav.id}`}>{nav.title}</a>
             </li>
           ))}
-          <li className={`font-poppins font-bold cursor-pointer text-[32px] ml-10 `}>
-            <span className='before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block'>
-              <span className='relative text-white '>IP: WAITMC.TOP</span>
+          <li className="font-poppins font-bold cursor-pointer text-[32px] ml-10">
+            <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
+              <span className="relative text-white">IP: WAITMC.TOP</span>
             </span>
           </li>
         </ul>
