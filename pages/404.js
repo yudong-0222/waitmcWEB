@@ -23,7 +23,7 @@ const NotFound = () => (
       <motion.h1 variants={textVariant(1.1)} className={`${styles.heroHeading}`}>
         NOT FOUND
       </motion.h1>
-      <TypingTitle title="oops 出了點錯誤?" textStyles="text-center" />
+      <TypingTitle title="oops 出了點錯誤" textStyles="text-center" />
       <TypingTitle title="你現在所在的頁面已經搬到外太空了..." textStyles="text-center" />
       <a href="/">
         <motion.h1
