@@ -13,7 +13,7 @@ const Navbar = () => {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true, amount: 0.5 }}
+      viewport={{ once: true, amount: 0.25 }}
       className={`${styles.xPaddings} py-8 relative`}
     >
       <div className={`${styles.innerWidth} mx-auto flex items-start gap-8`}>
