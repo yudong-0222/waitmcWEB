@@ -6,8 +6,8 @@ import Snd from '../../sections/Snd';
 const ModesPage = () => (
   <div className="bg-primary-black overflow-hidden">
     <Navbar />
-      <Practice />
-      <Snd />
+    <Practice />
+    <Snd />
     <Footer />
   </div>
 );
