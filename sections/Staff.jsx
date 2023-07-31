@@ -23,7 +23,7 @@ const Staff = () => {
       <div className='flex justify-center items-center flex-col relative z-10'>
         <motion.h2 variants={textVariant(1.1)}
         className={`${styles.heroBloding}`}>
-          FOUNDER OF WAIT
+          MODERATOR OF WAIT
         </motion.h2>
       </div>
   </motion.div>

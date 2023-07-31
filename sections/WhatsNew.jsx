@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 import styles from '../styles';
 import { newFeatures } from '../constants';
-import { NewFeatures, TitleText, TypingText } from '../components';
+import { NewFeatures, TitleText, TypingText, SmallTitle} from '../components';
 import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
 
 const WhatsNew = () => (
@@ -22,6 +22,9 @@ const WhatsNew = () => (
       >
         <TypingText title="| Whats new?" />
         <TitleText title={<>Wait Network 2.0 更新了什麼?</>} />
+        <div>
+          <SmallTitle title={<>我們正在建置新的頁面 以進行更詳細的說明...</>} />
+        </div>
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />

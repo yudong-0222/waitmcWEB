@@ -39,3 +39,14 @@ export const TitleText = ({ title, textStyles }) => (
     {title}
   </motion.h2>
 );
+
+export const SmallTitle = ({ title, textStyles }) => (
+  <motion.h2
+    variants={textVariant2}
+    initial="hidden"
+    whileInView="show"
+    className={`mt-[8px] font-bold md:text-[24px] text-[12px] text-gray-400 ${textStyles}`}
+  >
+    {title}
+  </motion.h2>
+);

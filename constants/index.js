@@ -93,8 +93,8 @@ export const navLinks = [
     title: "MODES",
   },
   {
-    id: "/founder",
-    title: "FOUNDER",
+    id: "/moderator",
+    title: "MODERATOR",
   },
   {
     id: "https://discord.gg/RNJQFYbjVp",
@@ -135,6 +135,11 @@ export const staff = [
     imgUrl: '/staff.png',
     title: 'iL4xz#0140',
     subtitle: 'HELPER/MOD',
+  },
+  {
+    imgUrl: '/staff.png',
+    title: 'ccwwxccwwx',
+    subtitle: 'HELPER (Trial)',
   },
 ];
 
