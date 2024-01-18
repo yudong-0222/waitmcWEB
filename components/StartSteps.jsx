@@ -9,7 +9,7 @@ const NEWS = ({ number, title, subtitle }) => (
         {number}
       </p>
     </div>
-    <div className='whitespace-pre-line'>
+    <div className="whitespace-pre-line">
       <p className="ml-[30px] font-extrabold text-[24px] text-[#ffffff]">
         {title}
       </p>
