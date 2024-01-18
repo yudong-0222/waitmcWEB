@@ -15,7 +15,8 @@ const Home = () => (
     <GetStarted />
     <div className="relative">
       <Insights />
-      <Feedback />
+      {/* <Feedback /> */}
+      {/* Feedback 暫時先不要好了。 */}
     </div>
     <Footer />
   </div>

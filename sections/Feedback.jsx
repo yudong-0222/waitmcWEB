@@ -31,8 +31,12 @@ const Feedback = () => (
           </p>
         </div>
 
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          "我們非常歡迎進來我們的Discord社群!在這裡 你可以自由地與任何玩家、員工 交流。也能在發現問題的時候第一時間解決!如果你尚未加入，強烈推薦你加入我們!"
+        <p className="mt-[24px] font-bold sm:text-[18px] text-[20px] sm:leading-[30px] leading-[29.6px] text-white">
+          "非常歡迎加入我們的 Discord 社群!
+          在這裡，你可以自由地與任何玩家、員工進行交流。
+          也能於發現問題的第一時間進行解決！
+          如果你尚未加入
+          強烈推薦加入以獲得更多支援與第一手消息！"
         </p>
       </motion.div>
 

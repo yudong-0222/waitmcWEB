@@ -21,7 +21,7 @@ const Snd = () => {
       >
         <motion.div
           variants={planetVariants('left')}
-          className={`flex-1 ${styles.flexCenter} h-screen`}
+          className={`flex-1 ${styles.flexCenter}`}
         >
             <img
               src="/sndh.png"
