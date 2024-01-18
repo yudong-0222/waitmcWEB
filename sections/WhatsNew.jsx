@@ -21,9 +21,9 @@ const WhatsNew = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TypingText title="| Whats new?" />
-        <TitleText title={<>Wait Network 2.0 更新了什麼?</>} />
+        <TitleText title={<>WAIT Network 2.0 更新了什麼?</>} />
         <div>
-          <SmallTitle title={<>我們正在建置新的頁面 以進行更詳細的說明...</>} />
+          <SmallTitle title={<>🚧 我們正在建置新的頁面 以進行更詳細的說明...</>} />
         </div>
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature) => (

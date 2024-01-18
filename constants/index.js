@@ -2,35 +2,43 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/bafa.png',
-    title: '【1.8.x】PvP Practice',
+    title: '[1.8.x]\n PvP Practice',
   },
   {
     id: 'world-2',
     imgUrl: '/sndh.png',
-    title: '【1.16.5】Search And Destroy - Beta',
+    title: '[1.16.5]\n Search And Destroy\n Ver 1.13.7-BETA',
   },
   {
     id: 'world-3',
     imgUrl: '/discordsupport.png',
-    title: 'Discord Community Support',
+    title: 'Discord 社群支援🚑',
   },
   {
     id: 'world-4',
     imgUrl: '/maps.png',
-    title: 'Various Maps',
+    title: '多樣、多變化的遊戲地圖🚀',
   },
   {
     id: 'world-5',
     imgUrl: '/update.png',
-    title: 'Update Frequently',
+    title: '穩定更新⛽',
   },
 ];
 
-export const startingFeatures = [
-  '加入我們的Disocrd',
-  '打開 多人遊戲',
-  '輸入IP: waitmc.top',
-  '即可加入伺服器!',
+export const newsLA = [
+  {
+    title: '[SND] M24 即將登場...',
+    subtitle: 'M24狙擊步槍是雷明頓700步槍的衍生型\n將於不久的未來加入戰場，敬請期待。',
+  },
+  {
+    title: '[SND] Ver 1.14.0 即將到來...',
+    subtitle: "在這個版本當中，我們將更新更多機能\n如：對戰配置、攻守交換、整合性優化...等工程！",
+  },
+  {
+    title: '但是她卻不會說我不行...',
+    subtitle: "在這個版本當中，我們將更新更多機能\n如：對戰配置、攻守交換、整合性優化...等工程！",
+  },
 ];
 
 export const newFeatures = [
@@ -38,13 +46,13 @@ export const newFeatures = [
     imgUrl: '/vrpano.svg',
     title: '新地圖',
     subtitle:
-        '我們在不同的版本當中新增了許多地圖!',
+        '新增一些地圖...\n比起舊版的地圖\n新增加的地圖更適合戰鬥了。',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'SND BETA',
+    title: 'SND Ver 1.13.7',
     subtitle:
-        '由Wait Network製作 將FPS遊戲的爆破模式復刻到Minecraft中!',
+        "由 WAIT Network 製作\n將 FPS 射擊遊戲的爆破模式\n復刻到 Minecraft 中!",
   },
 ];
 

@@ -21,9 +21,9 @@ const Explore = () => {
     className={`${styles.innerWidth} mx-auto flex flex-col `}
     >
       <TypingText title={"| The Features"} textStyles='text-center'/>
-      <TitleText title={<>Wait Network 特色 <br className='md:block hidden'/></>} textStyles="text-center"/>
+      <TitleText title={<>WAIT Network 特色 <br className='md:block hidden'/></>} textStyles="text-center"/>
    
-      <div className='mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5'>
+      <div className='mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5 whitespace-pre-line'>
         {exploreWorlds.map((world, index) => (
           <ExploreCard 
           key={world.id} 

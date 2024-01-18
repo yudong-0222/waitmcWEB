@@ -1,18 +1,23 @@
 import styles from '../styles';
 
-const StartSteps = ({ number, text }) => (
-  <div className={`${styles.flexCenter} flex-row`}>
+const NEWS = ({ number, title, subtitle }) => (
+  <div className={`${styles.flexStart} flex-row`}>
     <div
-      className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323F5D]`}
+      className={`${styles.flexCenter} w-[90px] h-[90px] rounded-[24px] bg-[#0A356D] border-transparent hover:border-[#0E76BC] hover:border-4 hover:cursor-default`}
     >
-      <p className="font-bold text-[20px] text-white">
+      <p className="font-extrabold text-[20px] text-white">
         {number}
       </p>
     </div>
-    <p className="flex-1 ml-[30px] font-normal text-[18px] text-[#B0B0B0] leading-[32.4px]">
-      {text}
-    </p>
+    <div className='whitespace-pre-line'>
+      <p className="ml-[30px] font-extrabold text-[24px] text-[#ffffff]">
+        {title}
+      </p>
+      <p className="mt-[5px] ml-[30px] font-normal text-[16px] text-[#B0B0B0]">
+        {subtitle}
+      </p>
+    </div>
   </div>
 );
 
-export default StartSteps;
+export default NEWS;
