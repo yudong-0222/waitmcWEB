@@ -36,7 +36,7 @@ const Navbar = () => {
           ))}
           <li className="font-poppins font-bold text-[32px] ml-10">
             <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
-              <span className="relative text-white">IP: WAITMC.TOP</span>
+              <span className="relative text-white">WAITMC.TOP</span>
             </span>
           </li>
         </ul>
@@ -48,9 +48,7 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           />
           <div
-            className={`${
-              !toggle ? 'hidden' : 'flex'
-            } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+            className={`${!toggle ? 'hidden' : 'flex'} p-6 bg-[#F5A931] absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
           >
             <ul className="list-none flex justify-end items-start flex-1 flex-col text-white">
               {navLinks.map((nav, index) => (

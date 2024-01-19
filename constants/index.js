@@ -7,7 +7,7 @@ export const exploreWorlds = [
   {
     id: 'world-2',
     imgUrl: '/sndh.png',
-    title: '[1.16.5]\n Search And Destroy\n Ver 1.13.7-BETA',
+    title: '[1.16.5]\n Search And Destroy',
   },
   {
     id: 'world-3',
