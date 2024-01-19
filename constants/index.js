@@ -28,16 +28,20 @@ export const exploreWorlds = [
 
 export const newsLA = [
   {
+    title: '[SND] Ver 1.14.0 即將到來...',
+    subtitle: "在這個版本當中，我們將更新更多機能\n如：對戰配置、攻守交換、整合性優化...等工程！",
+  },  
+  {
     title: '[SND] M24 即將登場...',
     subtitle: 'M24狙擊步槍是雷明頓700步槍的衍生型\n將於不久的未來加入戰場，敬請期待。',
   },
   {
-    title: '[SND] Ver 1.14.0 即將到來...',
-    subtitle: "在這個版本當中，我們將更新更多機能\n如：對戰配置、攻守交換、整合性優化...等工程！",
+    title: '[SND] SCAR-H 現已推出',
+    subtitle: "適用模式為：經典爆破。\n詳見 Discord 社群公告。",
   },
   {
-    title: '但是她卻不會說我不行...',
-    subtitle: "在這個版本當中，我們將更新更多機能\n如：對戰配置、攻守交換、整合性優化...等工程！",
+    title: '[SND] M1014 現已推出',
+    subtitle: "適用模式為：經典爆破。\n詳見 Discord 社群公告。",
   },
 ];
 
