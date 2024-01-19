@@ -33,7 +33,6 @@ const Snd = () => {
           variants={fadeIn('right', 'tween', 0.2, 1)}
           className="flex-[0.95] flex justify-center flex-col"
         >
-          <TypingText title="丨Search And Destroy" />
           <TitleText title={<>Search And Destroy 分流</>} />
           <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
             {sndmodes.map((feature) => (
