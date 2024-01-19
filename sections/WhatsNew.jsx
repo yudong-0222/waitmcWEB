@@ -18,7 +18,7 @@ const WhatsNew = () => (
     >
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.95] flex justify-center flex-col"
+        className="flex-[0.95]"
       >
         <TypingText title="| Whats new?" />
         <TitleText title={<>WAIT Network 2.0 更新了什麼?</>} />
@@ -34,7 +34,7 @@ const WhatsNew = () => (
 
       <motion.div
         variants={planetVariants('right')}
-        className={`flex-1 ${styles.flexCenter}`}
+        className={`flex-1 ${styles.flexCenter} hidden sm:block`}
       >
         <img
           src="/logowait.png"
