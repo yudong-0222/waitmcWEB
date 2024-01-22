@@ -7,7 +7,7 @@ export const exploreWorlds = [
   {
     id: 'world-2',
     imgUrl: '/sndh.png',
-    title: '[1.16.5]\n Search And Destroy',
+    title: '[1.19.4]\n Search And Destroy',
   },
   {
     id: 'world-3',
@@ -40,8 +40,8 @@ export const newsLA = [
     subtitle: "適用模式為：經典爆破。\n詳見 Discord 社群公告。",
   },
   {
-    title: '[SND] M1014 現已推出',
-    subtitle: "適用模式為：經典爆破。\n詳見 Discord 社群公告。",
+    title: '[SND] 更新遊戲版本至 1.19.4',
+    subtitle: "1.16.5 → 1.19.4\nSND 仍支援 1.16.5 以上版本遊玩！",
   },
 ];
 
@@ -189,10 +189,10 @@ export const sndmodes = [
 export const insights = [
   {
     imgUrl: '/gamer.png',
-    title: '巴哈姆特上的Wait Network文章',
+    title: '巴哈姆特 - WAIT Network',
     link: 'https://forum.gamer.com.tw/C.php?bsn=18673&snA=196728',
     subtitle:
-        '【自架】【1.8 - 1.19】Wait Network 丨1.8PvP丨低延遲 高穩定丨...',
+        '【自架】【1.8 - 1.19.4】Wait Network 丨1.8PvP丨低延遲 高穩定丨...',
   },
 ];
 
