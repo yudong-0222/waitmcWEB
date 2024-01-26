@@ -6,6 +6,7 @@ import WhatsNew from './WhatsNew';
 import World from './World';
 import Insights from './Insights';
 import Feedback from './Feedback';
+import StatusPic from './StatusPic';
 
 export {
   Hero,
@@ -15,5 +16,6 @@ export {
   GetStarted,
   World,
   Insights,
+  StatusPic,
   Feedback,
 };
