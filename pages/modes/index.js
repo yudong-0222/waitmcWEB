@@ -7,7 +7,7 @@ const ModesPage = () => (
   <div className="bg-primary-black overflow-hidden">
     <Navbar />
     {/* <Practice /> */}
-    <Snd /> 
+    <Snd />
     <div className="h-screen flex flex-col items-center justify-center">
       <TitleText title={<>🚧 COMING SOON...</>} />
       <a href="/">

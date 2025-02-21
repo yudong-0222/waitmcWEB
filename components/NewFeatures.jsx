@@ -42,8 +42,8 @@ const NewFeatures = ({ imgUrl, title, subtitle }) => {
           {spilitText}
         </p>
       </div>
-    </div>    
-  )
-}
+    </div>
+  );
+};
 
 export default NewFeatures;
