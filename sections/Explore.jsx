@@ -18,12 +18,12 @@ const Explore = () => {
     initial='hidden'
     whileInView="show"
     viewport={{once:false , amount:0.25}}
-    className={`${styles.innerWidth} mx-auto flex flex-col `}
+    className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <TypingText title={"| Features"} textStyles='text-center'/>
       <TitleText title={<>WAIT Network 特色 <br className='md:block hidden'/></>} textStyles="text-center"/>
    
-      <div className='mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5 whitespace-pre-line'>
+      <div className='mt-[30px] flex lg:flex-row flex-col min-h-[70vh] gap-5 whitespace-pre-line'>
         {exploreWorlds.map((world, index) => (
           <ExploreCard 
           key={world.id} 
@@ -35,8 +35,9 @@ const Explore = () => {
         ))} 
 
       </div>
-   
+  
     </motion.div>
   </section>
 ) };
+
 export default Explore;
