@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import {staff,owner,admin} from '../constants'
 import styles from '../styles';
 import { staggerContainer, textVariant,fadeIn } from '../utils/motion';
-import Modes from '../components/Modes';
 import { TypingTitle } from '../components/CustomTexts';
 import Staffs from '../components/Staffer';
 
