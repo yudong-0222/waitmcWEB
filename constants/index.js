@@ -33,7 +33,7 @@ export const newsLA = [
   },  
   {
     title: '[！] 伺服器重心將逐漸移至 SND 開發上。',
-    subtitle: '⭐ We are moving our focus to SND development.\n🔻 PvP Practice will not longer have feature updates.',
+    subtitle: '⭐ 我們正在將重心轉移至 SND 開發！ \n🔻 PvP Practice 將不再有新功能更新。',
   },
   {
     title: '[SND] 遊戲版本更新至 1.21.4',
@@ -189,7 +189,7 @@ export const insights = [
     title: '巴哈姆特 - WAIT Network',
     link: 'https://forum.gamer.com.tw/C.php?bsn=18673&snA=196728',
     subtitle:
-        '【自架】【1.8 - 1.19.4】Wait Network 丨1.8PvP丨低延遲 高穩定丨...',
+        '【自架】【1.21.4】WAIT Network 丨槍戰丨槍械丨3D 槍械丨槍戰伺服器丨經典爆破丨',
   },
 ];
 
