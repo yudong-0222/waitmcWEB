@@ -6,7 +6,8 @@ export const exploreWorlds = [
   },
   {
     id: 'world-2',
-    imgUrl: '/sndh.png',
+    // imgUrl: '/sndh.png',https://i.imgur.com/Y0141yx.png
+    imgUrl: 'https://i.imgur.com/ca3N3y3.png',
     title: '[1.21.4] 3D 槍械⭐\n Search And Destroy',
   },
   {
@@ -16,8 +17,8 @@ export const exploreWorlds = [
   },
   {
     id: 'world-4',
-    imgUrl: '/maps.png',
-    title: '多樣、多變化的遊戲地圖🚀',
+    imgUrl: 'https://i.imgur.com/WvRQA1r.png',
+    title: '經典還原遊戲地圖🚀',
   },
   {
     id: 'world-5',
