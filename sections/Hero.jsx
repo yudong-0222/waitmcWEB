@@ -19,7 +19,7 @@ function e() {
 
   Swal.fire({
     title: '複製成功',
-    text: '成功將伺服器IP複製到剪貼簿了!',
+    text: '已將伺服器 IP 複製到剪貼簿',
     icon: 'success',
     showConfirmButton: false,
     timer: 1500,
