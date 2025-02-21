@@ -2,12 +2,12 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/bafa.png',
-    title: '[1.8.x]\n PvP Practice',
+    title: '[1.8.x] 戰鬥練習\n PvP Practice 🚿',
   },
   {
     id: 'world-2',
     imgUrl: '/sndh.png',
-    title: '[1.19.4]\n Search And Destroy',
+    title: '[1.21.4] 3D 槍械⭐\n Search And Destroy',
   },
   {
     id: 'world-3',
@@ -29,35 +29,32 @@ export const exploreWorlds = [
 export const newsLA = [
   {
     title: '[SND] Ver 1.14.0 即將到來...',
-    subtitle: "在這個版本當中，我們將更新更多機能\n如：對戰配置、攻守交換、整合性優化...等工程！",
+    subtitle: "在這個版本當中，我們將更新更多機能\n如：對戰配置、攻守交換、整合等工程！",
   },  
   {
-    title: '[SND] M24 即將登場...',
-    subtitle: 'M24狙擊步槍是雷明頓700步槍的衍生型\n將於不久的未來加入戰場，敬請期待。',
+    title: '[！] 伺服器重心將逐漸移至 SND 開發上。',
+    subtitle: '⭐ We are moving our focus to SND development.\n🔻 PvP Practice will not longer have feature updates.',
   },
   {
-    title: '[SND] SCAR-H 現已推出',
-    subtitle: "適用模式為：經典爆破。\n詳見 Discord 社群公告。",
-  },
-  {
-    title: '[SND] 更新遊戲版本至 1.19.4',
-    subtitle: "1.16.5 → 1.19.4\nSND 仍支援 1.16.5 以上版本遊玩！",
-  },
+    title: '[SND] 遊戲版本更新至 1.21.4',
+    subtitle: "📣 1.19.4 → 1.21.4\n❗ 目前僅支援 1.21.4 遊玩",
+  }
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: '新地圖',
+    title: '地圖最佳化',
     subtitle:
-        '新增一些地圖...\n比起舊版的地圖\n新增加的地圖更適合戰鬥了。',
+        '除了新增一些地圖\n我們也著手修正舊版的地圖\n最佳化每一張地圖的細節\n使其更符合玩家戰鬥需求。',
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'SND Ver 1.13.7',
+    imgUrl: '/gunla.svg',
+    title: 'SND Ver 1.14.0',
     subtitle:
-        "由 WAIT Network 製作\n將 FPS 射擊遊戲的爆破模式\n復刻到 Minecraft 中!",
-  },
+        "WAIT Network 開發\n將 FPS 射擊遊戲\n復刻到 Minecraft 中！\n不須安裝任何模組即可遊玩！",
+  }
+  
 ];
 
 export const owner = [
@@ -131,12 +128,12 @@ export const staff = [
   {
     imgUrl: '/staff.png',
     title: 'more_fei',
-    subtitle: 'CO-OWNER',
+    subtitle: 'HELPER/MOD',
   },
   {
     imgUrl: '/staff.png',
     title: 'more23',
-    subtitle: 'CO-OWNER',
+    subtitle: 'HELPER/MOD',
   },
   {
     imgUrl: '/staff.png',
@@ -151,7 +148,7 @@ export const staff = [
   {
     imgUrl: '/staff.png',
     title: 'ccwwxccwwx',
-    subtitle: 'HELPER (Trial)',
+    subtitle: 'HELPER',
   },
 ];
 
@@ -166,7 +163,7 @@ export const modes = [
     imgUrl: '/modes.svg',
     title: '多種模式',
     subtitle:
-        '將舊版Practice插件替換成更穩定的插件。而我們也持續地在更新當中!',
+        '將舊版 Practice 插件替換成更穩定的插件。而我們也持續地在更新當中!',
   },
 ];
 

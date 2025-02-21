@@ -24,19 +24,21 @@ const About = () => (
         <span className='font-extrabold text-white'>WAIT Network Since 2017</span>
         <br />
         我們擁有
-        <span className='font-extrabold text-white'>5年</span>
+        <span className='font-extrabold text-white'> 5 年以上</span>
         
         的伺服器架設經驗
         <br />
-        能保證給玩家
-        <span className='font-extrabold text-white'>最有趣、完整、流暢的遊戲體驗!</span>
+        提供所有玩家
+        <span className='font-extrabold text-white'>最有趣、完整的遊戲體驗！</span>
         <br /> 
-        踏入 WAIT Network 的世界 
+        加入 <span className='font-extrabold text-white'>WAIT Network</span>
         <br/>
-        迎接我們的 
-        <span className='font-extrabold text-white'> PvP Practice </span>
+        一同體驗
+        <span className='font-extrabold text-white'> PvP </span>
         和
-        <span className='font-extrabold text-white'> Search And Destroy </span>小遊戲!
+        <span className='font-extrabold text-[#3865ff]'> Search </span>
+        <span className='font-extrabold text-white'> And </span>
+        <span className='font-extrabold text-[#ff3838]'> Destroy</span>
       </motion.p>
       <motion.img
       variants={fadeIn('up','tween', 0.3,1)}
