@@ -1,12 +1,10 @@
 import React from 'react'
-
-
 import { motion } from 'framer-motion';
 
-import {modes, sndmodes} from '../constants'
+import {sndmodes} from '../constants'
 import styles from '../styles';
-import { staggerContainer, textVariant,fadeIn,planetVariants } from '../utils/motion';
-import { CustomTexts, TitleText, TypingText } from '../components';
+import { staggerContainer,fadeIn,planetVariants } from '../utils/motion';
+import { TitleText } from '../components/CustomTexts';
 import Modes from '../components/Modes';
 
 const Snd = () => {
@@ -45,4 +43,4 @@ const Snd = () => {
   )
 }
 
-export default Snd
+export default Snd 

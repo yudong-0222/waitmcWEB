@@ -43,16 +43,16 @@ export const newsLA = [
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: '地圖最佳化',
+    imgUrl: 'https://i.imgur.com/tACMblk.png',
+    title: '🎯 玩家競技',
     subtitle:
-        '除了新增一些地圖\n我們也著手修正舊版的地圖\n最佳化每一張地圖的細節\n使其更符合玩家戰鬥需求。',
+        '因為熱愛 Minecraft 而架設的臺灣伺服器\n主打「玩家競技 ｜Player vs. Player」',
   },
   {
-    imgUrl: '/gunla.svg',
-    title: 'SND Ver 1.14.0',
+    imgUrl: 'https://i.imgur.com/2of6l5c.png',
+    title: '✨３Ｄ 槍械',
     subtitle:
-        "WAIT Network 開發\n將 FPS 射擊遊戲\n復刻到 Minecraft 中！\n不須安裝任何模組即可遊玩！",
+        "3D 槍戰｜經典爆破｜多種槍枝｜\n不須安裝任何模組即可遊玩！"
   }
   
 ];
