@@ -2,7 +2,7 @@ import styles from '../styles';
 
 const NewFeatures = ({ imgUrl, title, subtitle }) => {
   const spilitText = subtitle.split('\n').map((line, index) => (
-    <span key={index} >
+    <span key={index}>
       {line}
       {index !== subtitle.length - 1 && <br />}
     </span>
@@ -18,7 +18,7 @@ const NewFeatures = ({ imgUrl, title, subtitle }) => {
         <div className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323F5D]`}>
           <img src={imgUrl} alt="icon" className="w-2/3 h-2/3 object-contain" />
         </div>
-        <div className="">
+        <div>
           <p className="font-normal text-[16px] text-[#B0B0B0] leading-[25px]">
             {spilitText}
           </p>
@@ -26,12 +26,12 @@ const NewFeatures = ({ imgUrl, title, subtitle }) => {
       </div>
       {/* Mobile layout */}
       <div className="sm:hidden">
-        <div className='flex flex-row'>
-          <div className='flex flex-row items-center gap-4'>
+        <div className="flex flex-row">
+          <div className="flex flex-row items-center gap-4">
             <div className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323F5D]`}>
               <img src={imgUrl} alt="icon" className="w-2/3 h-2/3 object-contain" />
             </div>
-            <div className='flex flex-col'>
+            <div className="flex flex-col">
               <h1 className="font-bold text-[24px] text-white">
                 {title}
               </h1>

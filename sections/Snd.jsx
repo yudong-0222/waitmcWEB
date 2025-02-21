@@ -43,4 +43,4 @@ const Snd = () => {
   )
 }
 
-export default Snd 
+export default Snd
