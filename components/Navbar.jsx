@@ -34,13 +34,13 @@ const Navbar = () => {
                 key={nav.id}
                 className={`font-poppins font-normal cursor-pointer text-[16px] hover:border-y-2 border-indigo-500 ${
                   active === nav.title ? 'text-white' : 'text-dimWhite'
-                } ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}
+                } ${index === navLinks.length - 1 ? 'mr-8' : 'mr-8'}`}
                 onClick={() => setActive(nav.title)}
               >
                 <a href={`${nav.id}`}>{nav.title}</a>
               </li>
             ))}
-            <li className="font-poppins font-bold ml-10">
+            <li className="font-poppins font-bold">
               <a href="https://discord.gg/RNJQFYbjVp" target="_blank" rel="noopener noreferrer">
                 <button className="bg-[#738adb] rounded w-[140px] h-[40px] hover:bg-[#3e66f5]" type="button">
                   <div className="flex flex-row items-center justify-center">
