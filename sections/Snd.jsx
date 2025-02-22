@@ -1,46 +1,61 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 
-import {sndmodes} from '../constants'
 import styles from '../styles';
-import { staggerContainer,fadeIn,planetVariants } from '../utils/motion';
-import { TitleText } from '../components/CustomTexts';
-import Modes from '../components/Modes';
+import { staggerContainer,fadeIn } from '../utils/motion';
+import { SNDTitle } from '../components/CustomTexts';
 
-const Snd = () => {
+const SndHero = () => {
   return (
-  <section className={`${styles.yPaddings} ${styles.paddings} sm:pl-16 pl-6 relative z-10`}>
+  <div className="relative z-8 min-h-[88vh]">
     <motion.div
-        variants={staggerContainer}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      className="w-full"
+    >
+      <motion.div
+        variants={fadeIn('up', 'tween', 0.2, 1)}
+        className="flex flex-col items-center"
       >
-        <motion.div
-          variants={planetVariants('left')}
-          className={`flex-1 ${styles.flexCenter}`}
-        >
-            <img
-              src="/sndh.png"
-              alt="get-started"
-              className="object-contain z-10 rounded-3xl"
-            />
-        </motion.div>
-        <motion.div
-          variants={fadeIn('right', 'tween', 0.2, 1)}
-          className="flex-[0.95] flex justify-center flex-col"
-        >
-          <TitleText title={<>Search And Destroy 分流</>} />
-          <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
-            {sndmodes.map((feature) => (
-              <Modes key={feature.title} {...feature} />
-            ))}
+        {/* Desktop Verison */}
+        <div className="hidden sm:flex md:hidden lg:flex xl:flex">
+          <div className="flex justify-center space-x-6 mt-[128px]">
+            <SNDTitle title={<>Search</>} colour={'text-[#1797FF]'} />
+            <motion.div
+              variants={fadeIn('down', 'tween', 0.6, 1)}
+              className="flex flex-col items-center"
+            >
+              <SNDTitle title={<>And</>} colour={'text-[#FFFFFF]'} /> 
+            </motion.div>
+            <SNDTitle title={<>Destroy</>} colour={'text-[#FF3939]'} />
           </div>
-        </motion.div>
+        </div>
+        {/* Mobile Verison */}
+        <div className="sm:hidden md:flex lg:hidden xl:hidden flex">
+          <div className="flex justify-center space-x-2 mt-[128px]">
+            <span className="text-[#1797FF] font-bold md:text-[82px] text-[32px]">Search</span>
+            <motion.div
+              variants={fadeIn('down', 'tween', 0.6, 1)}
+              className="flex flex-col items-center"
+            >
+              <span className="text-[#FFFFFF] font-bold md:text-[82px] text-[32px]">And</span>
+            </motion.div>
+            <span className="text-[#FF3939] font-bold md:text-[82px] text-[32px]">Destroy</span>
+          </div>
+        </div>           
       </motion.div>
-  </section>
-  )
+      <motion.div
+        variants={fadeIn('left', 'tween', 0.8, 1.2)}
+        className="flex flex-col items-center"
+      >
+        <div className="flex justify-center">
+            <span className="text-[#FFFF] text-[28px]">Das war ein befehl!</span>
+        </div>
+      </motion.div>
+    </motion.div>
+  </div>
+  );
 }
 
-export default Snd;
+export default SndHero;
