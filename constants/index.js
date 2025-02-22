@@ -106,10 +106,10 @@ export const navLinks = [
     id: "/moderator",
     title: "MODERATOR",
   },
-  {
-    id: "https://discord.gg/RNJQFYbjVp",
-    title: "DISCORD",
-  },
+  // {
+  //   id: "https://discord.gg/RNJQFYbjVp",
+  //   title: "DISCORD",
+  // },
 ];
 
 export const admin = [

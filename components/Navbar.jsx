@@ -40,11 +40,23 @@ const Navbar = () => {
                 <a href={`${nav.id}`}>{nav.title}</a>
               </li>
             ))}
-            <li className="font-poppins font-bold text-[32px] ml-10">
+            <li className="font-poppins font-bold ml-10">
+              <a href="https://discord.gg/RNJQFYbjVp" target="_blank" rel="noopener noreferrer">
+                <button className="bg-[#738adb] rounded w-[140px] h-[40px] hover:bg-[#3e66f5]" type="button">
+                  <div className="flex flex-row items-center justify-center">
+                    <img src="https://i.imgur.com/Fipslup.png" alt="dc_lgo" className="max-w-[24px] max-h-[24px] object-contain" />
+                    <span className="ml-2 text-[20px]">
+                      Discord
+                    </span>
+                  </div>
+                </button>
+              </a>
+            </li>
+            {/* <li className="font-poppins font-bold text-[32px] ml-10">
               <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
                 <span className="relative text-white">WAITMC.TOP</span>
               </span>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="sm:flex md:flex lg:hidden xl:hidden flex justify-end items-end">

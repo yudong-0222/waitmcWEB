@@ -36,7 +36,7 @@ const About = () => (
         一同體驗
         <span className='font-extrabold text-white'> PvP </span>
         和
-        <span className='font-extrabold text-[#3865ff]'> Search </span>
+        <span className='font-extrabold text-[#1d9eff]'> Search </span>
         <span className='font-extrabold text-white'> And </span>
         <span className='font-extrabold text-[#ff3838]'> Destroy</span>
       </motion.p>
