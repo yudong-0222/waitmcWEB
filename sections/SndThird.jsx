@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
 import styles from '../styles';
 import { staggerContainer,fadeIn } from '../utils/motion';
 import { SNDTitle } from '../components/CustomTexts';
