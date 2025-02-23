@@ -1,10 +1,13 @@
 import React, { useRef } from 'react';
 import { useScroll } from 'framer-motion';
-import { Navbar } from '../../components';
+import { Navbar, Footer } from '../../components';
 import SndHero from '../../sections/Snd';
 import SndSec from '../../sections/SndSec';
 import SndThird from '../../sections/SndThird';
 import SndFour from '../../sections/SndFour';
+import SndFive from '../../sections/SndFive';
+import SndSix from '../../sections/SndSix';
+import SndSeven from '../../sections/SndSeven';
 
 const ModesPage = () => {
   const container = useRef(null);
@@ -35,9 +38,13 @@ const ModesPage = () => {
       </div>
       <div ref={container} className="relative">
         <SndFour scrollYProgress={scrollYProgress} />
-        {/* <SndFive scrollYProgress={scrollYProgress} /> */}
+        <SndFive scrollYProgress={scrollYProgress} />
       </div>
-      {/* <Footer /> */}
+      <div className="relative overflow-hidden">
+        <SndSix />
+        <SndSeven />
+        <Footer gredient="gradient-02" />
+      </div>
     </div>
   );
 };

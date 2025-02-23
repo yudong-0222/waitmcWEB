@@ -7,7 +7,7 @@ import { SNDTitle } from '../components/CustomTexts';
 
 const SndHero = () => {
   return (
-  <div className="relative z-8 min-h-[88vh]">
+  <div className="relative z-[100] min-h-[88vh]">
     <motion.div
       variants={staggerContainer}
       initial="hidden"

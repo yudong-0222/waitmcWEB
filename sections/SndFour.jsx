@@ -1,14 +1,9 @@
-import {useRef, useState} from 'react'
-import { motion, useScroll, useTransform } from 'framer-motion';
-
-import styles from '../styles';
-import { staggerContainer,fadeIn,zoomIn } from '../utils/motion';
-import { SNDTitle } from '../components/CustomTexts';
+import { motion, useTransform } from 'framer-motion';
+import { zoomIn } from '../utils/motion';
 
 const SECTION_HEIGHT = 1500;
 
 const SndFour = ({scrollYProgress}) => {
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 0.2])
   return (
     <div>
       {/* Desktop Verison */}
@@ -118,6 +113,5 @@ const TextBox = ({info, desc}) => {
     </motion.div>
   );
 };
-
 
 export default SndFour;

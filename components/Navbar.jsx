@@ -14,12 +14,12 @@ const Navbar = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className={`${styles.xPaddings} py-8 relative`}
+      className={`${styles.xPaddings} py-8 relative z-[9999]`}
     >
       <div className="flex items-start justify-between gap-8">
         {/* Logo */}
         <div className="flex flex-row items-center">
-          <a href="/" className="flex flex-row items-center space-x-2 z-[9999]">
+          <a href="/" className="flex flex-row items-center space-x-2">
             <img src="https://i.imgur.com/Nphfk7A.png" className="w-[50px] h-[50px] object-contain" />
             <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white cursor-pointer z-[9999]">
               WAIT NETWORK
