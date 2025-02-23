@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
@@ -7,7 +7,7 @@ import { SNDTitle } from '../components/CustomTexts';
 
 const SndThird = () => {
   return (
-    <section className={`relative z-[1] flex items-center justify-center 4k:mt-[58px]`}>
+    <section className="relative z-[1] flex items-center justify-center 4k:mt-[58px]" >
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -15,7 +15,7 @@ const SndThird = () => {
         viewport={{ once: false, amount: 0.25 }}
         className="w-full flex lg:flex-row flex-col"
       >
-        {/* 左半邊 - 圖片部分 Desktop*/}
+        {/* 左半邊 - 圖片部分 Desktop */}
         <motion.div
           variants={fadeIn('right', 'tween', 0.2, 1)} // 改用 fadeIn 保持一致
           className={`w-full lg:w-1/2 relative ${styles.flexCenter} hidden sm:hidden lg:flex`}
@@ -25,7 +25,7 @@ const SndThird = () => {
             alt="get-started"
             className="w-full h-screen object-cover"
           />
-        </motion.div>        
+        </motion.div>
         {/* 右半邊 - 文字部分 */}
         <div className="w-full lg:w-1/2 flex flex-col p-8">
           <motion.div
@@ -92,7 +92,7 @@ const SndThird = () => {
             </div>
           </motion.div>
         </div>
-        {/* 右半邊 - 圖片部分 Mobile*/}
+        {/* 右半邊 - 圖片部分 Mobile */}
         <motion.div
           variants={fadeIn('left', 'tween', 0.1, 1)} // 改用 fadeIn 保持一致
           className={`${styles.flexCenter} flex sm:flex md:flex lg:hidden xl:hidden`}

@@ -15,8 +15,8 @@ const SndFour = ({scrollYProgress}) => {
             // scale
           }}
         >
-          <Backimg url={"https://i.imgur.com/NabwUOO.png"} title={"經典爆破"}/>\
-          <Back2 url={"https://i.imgur.com/LjWzTdG.png"} />
+          <Backimg url="https://i.imgur.com/NabwUOO.png" title="經典爆破" />\
+          <Back2 url="https://i.imgur.com/LjWzTdG.png" />
         </motion.div>
       </div>
       {/* Mobile Verison */}
@@ -24,9 +24,9 @@ const SndFour = ({scrollYProgress}) => {
         <motion.div
           className="relative"
         >
-          <BackImgMobile url={"https://i.imgur.com/NabwUOO.png"} title={"經典爆破"} />\
+          <BackImgMobile url="https://i.imgur.com/NabwUOO.png" title="經典爆破" />\
           {/* <p>test123</p> */}
-          <Back2Mobile url={"https://i.imgur.com/LjWzTdG.png"} />
+          <Back2Mobile url="https://i.imgur.com/LjWzTdG.png" />
         </motion.div>
       </div>
     </div>
@@ -35,13 +35,13 @@ const SndFour = ({scrollYProgress}) => {
 
 // Normal Background Image
 const Backimg = ({url, title, desc}) => {
-  return(
+  return (
     <motion.div 
       className="sticky top-0 h-screen w-full"
       initial="hidden"
       whileInView="show"
-      viewport={{once: true ,amount:0.0}}
-      variants={zoomIn(0, 0.2)}
+      viewport={{ once: true ,amount:0.0 }}
+      variants={ zoomIn(0, 0.2) }
       style={{
         backgroundImage: `url(${url})`,
         backgroundPosition: "center",
@@ -55,7 +55,7 @@ const Backimg = ({url, title, desc}) => {
 
 const Back2 = ({url}) => {
   return(
-    <motion.div 
+    <motion.div
       className="flex relative lg:sticky top-0 w-full lg:h-screen items-center justify-center"
       style={{
         backgroundImage: `url(${url})`,
@@ -87,7 +87,7 @@ const BackImgMobile = ({url, title, desc}) => {
 //Mobile MapInfo Image
 const Back2Mobile = ({url}) => {
   return(
-    <motion.div 
+    <motion.div
       className="relative w-full h-screen bg-center bg-no-repeat bg-contain"
       style={{
         backgroundImage: `url(${url})`,
