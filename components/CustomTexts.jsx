@@ -50,3 +50,14 @@ export const SmallTitle = ({ title, textStyles }) => (
     {title}
   </motion.h2>
 );
+
+export const SNDTitle = ({ title, colour }) => (
+  <motion.h1
+    variants={textVariant2}
+    initial="hidden"
+    whileInView="show"
+    className={`font-bold sm:text-[40px] md:text-[40px] lg:text-[40px] xl:text-[75px] 4k:text-[128px] text-[40px] ${colour}`}
+  >
+    {title}
+  </motion.h1>
+);

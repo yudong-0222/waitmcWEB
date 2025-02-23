@@ -145,6 +145,52 @@
   text-fill-color: transparent;
 }
 
+.text-gradient2 {
+  background: radial-gradient(
+    44.18% 64.18% at 71.16% 35.69%,
+    #defae7 0.89%,
+    #bef5e6 17.23%,
+    #9df0cf 42.04%,
+    #7deba7 55.12%,
+    #5ce685 71.54%,
+    #40cf33 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.text-gradient3 {
+  background: linear-gradient(
+    to right,
+    #fadede 0%,        /* 起始更乾淨 */
+    #f5bebe 25%,       /* 平滑過渡 */
+    #f0a5a5 50%,       /* 中間加入柔和粉紅 */
+    #eb7d7d 75%,       /* 減緩紅色衝擊 */
+    #e65c5c 100%       /* 結束色稍淡 */
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.text-gradient4 {
+  background: linear-gradient(
+    to right,
+    #fadede 0%,        /* 起始更乾淨 */
+    #f5c5be 25%,       /* 平滑過渡 */
+    #f0c3a5 50%,       /* 中間加入柔和粉紅 */
+    #ff9f4b 75%,       /* 減緩紅色衝擊 */
+    #ff760d 100%       /* 結束色稍淡 */
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,

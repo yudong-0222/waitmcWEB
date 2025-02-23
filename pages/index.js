@@ -19,7 +19,7 @@ const Home = () => (
       {/* <Feedback /> */}
       {/* Feedback 暫時先不要好了。 */}
     </div>
-    <Footer />
+    <Footer gredient="gradient-03" />
   </div>
 );
 

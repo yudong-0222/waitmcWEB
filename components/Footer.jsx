@@ -4,7 +4,7 @@ import { socials } from '../constants';
 import styles from '../styles';
 import { footerVariants } from '../utils/motion';
 
-const Footer = () => (
+const Footer = ({ gredient }) => (
   <motion.footer
     variants={footerVariants}
     initial="hidden"
@@ -13,7 +13,7 @@ const Footer = () => (
     className={`${styles.xPaddings} py-8 relative`}
     id="footer"
   >
-    <div className="footer-gradient" />
+    <div className={`${gredient}`} />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       {/* <div className="flex items-center justify-between flex-wrap gap-5">
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
@@ -39,7 +39,7 @@ const Footer = () => (
             WAIT NETWORK
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Capybara © 2017 - 2024 WAIT Network.
+            Capybara © 2017 - 2025 WAIT Network.
           </p>
 
           <div className="flex gap-4">
