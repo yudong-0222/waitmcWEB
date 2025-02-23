@@ -60,10 +60,10 @@ const SndThird = () => {
         {/* 右半邊 - 圖片部分 Mobile*/}
         <motion.div
           variants={fadeIn('left', 'tween', 0.1, 1)} // 改用 fadeIn 保持一致
-          className={` ${styles.flexCenter} flex sm:flex md:flex lg:hidden xl:hidden`}
+          className={`${styles.flexCenter} flex sm:flex md:flex lg:hidden xl:hidden`}
         >
           <img
-            src="https://i.imgur.com/sXhb6OV.png"
+            src="https://i.imgur.com/iHaM6OZ.png"
             alt="get-started"
             className="w-full h-full object-contain"
           />
