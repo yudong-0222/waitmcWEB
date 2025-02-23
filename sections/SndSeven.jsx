@@ -95,33 +95,33 @@ const SndSeven = () => (
         >
         <TitleText title={<>拿好武器，一起 <span className="text-[#1797FF]">S</span><span className="text-[#FFFFFF]">N</span><span className="text-[#FF3939]">D</span></>} textStyles="text-center" />
         <div className="mt-[30px] flex flex-col">
-            <div className="w-full h-full relative aspect-video">
-                    <video
-                        className="w-full h-full object-cover rounded-lg"
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        preload="auto"
-                    >
-                        <source src="/snd_final.mp4" type="video/mp4" />
-                    </video>
-            </div>
-            <div className="flex justify-center mt-[40px]">
-                <a href="https://discord.gg/RNJQFYbjVp" target="_blank" rel="noopener noreferrer">
-                    <button className="bg-[#738adb] rounded w-[140px] h-[60px] hover:bg-[#3e66f5]" type="button">
-                        <div className="flex flex-row items-center justify-center">
-                        <img src="https://i.imgur.com/Fipslup.png" alt="dc_lgo" className="max-w-[24px] max-h-[24px] object-contain" />
-                        <span className="ml-2 text-[20px] text-white">
-                            Discord
-                        </span>
-                        </div>
-                    </button>
-                </a>
-            </div>
+          <div className="w-full h-full relative aspect-video">
+            <video
+                className="w-full h-full object-cover rounded-lg"
+                autoPlay
+                loop
+                muted
+                playsInline
+                preload="auto"
+            >
+                <source src="/snd_final.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div className="flex justify-center mt-[40px]">
+            <a href="https://discord.gg/RNJQFYbjVp" target="_blank" rel="noopener noreferrer">
+              <button className="bg-[#738adb] rounded w-[140px] h-[60px] hover:bg-[#3e66f5]" type="button">
+                <div className="flex flex-row items-center justify-center">
+                <img src="https://i.imgur.com/Fipslup.png" alt="dc_lgo" className="max-w-[24px] max-h-[24px] object-contain" />
+                <span className="ml-2 text-[20px] text-white">
+                    Discord
+                </span>
+                </div>
+              </button>
+            </a>
+          </div>
         </div>
         <div className="flex justify-center mt-[25px]">
-            <span className='text-[#ffffff] text-[32px] font-bold'>▲加入<span className="text-[#738adb]"> Discord </span> 以獲取最新消息！▲</span> <br/>
+          <span className='text-[#ffffff] text-[32px] font-bold'>▲加入<span className="text-[#738adb]"> Discord </span> 以獲取最新消息！▲</span> <br/>
         </div>
     </motion.div>
   </section>

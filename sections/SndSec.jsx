@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
-import { planetVariants,staggerContainer,fadeIn } from '../utils/motion';
+import { staggerContainer, fadeIn } from '../utils/motion';
 import { SNDTitle } from '../components/CustomTexts';
 
 const SndSec = () => {

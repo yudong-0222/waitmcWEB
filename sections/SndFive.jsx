@@ -3,7 +3,7 @@ import { zoomIn } from '../utils/motion';
 
 const SECTION_HEIGHT = 1500;
 
-const SndFive = ({scrollYProgress}) => {
+const SndFive = ({ scrollYProgress }) => {
   return (
     <div>
       {/* Desktop Verison */}
@@ -31,7 +31,7 @@ const SndFive = ({scrollYProgress}) => {
   );  
 };
 // Normal Background Image
-const Backimg = ({url, title, desc}) => {
+const Backimg = ({ url, title, desc }) => {
   return(
     <motion.div 
       className="sticky top-0 h-screen w-full"
@@ -50,7 +50,7 @@ const Backimg = ({url, title, desc}) => {
   );
 };
 // Normal Background Image
-const BackImgMobile = ({url, title, desc}) => {
+const BackImgMobile = ({ url, title, desc }) => {
   return(
     <motion.div 
       className="sticky top-0 h-screen w-full bg-center bg-no-repeat"
@@ -67,7 +67,7 @@ const BackImgMobile = ({url, title, desc}) => {
   );
 };
 //Mobile MapInfo Image
-const TextBox = ({info, desc}) => {
+const TextBox = ({ info, desc }) => {
   return (
     <motion.div
       variants={zoomIn(0.2, 0.1)} 

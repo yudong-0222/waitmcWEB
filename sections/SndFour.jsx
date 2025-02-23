@@ -53,7 +53,7 @@ const Backimg = ({url, title, desc}) => {
   );
 };
 
-const Back2 = ({url}) => {
+const Back2 = ({ url }) => {
   return (
     <motion.div
       className="flex relative lg:sticky top-0 w-full lg:h-screen items-center justify-center"
