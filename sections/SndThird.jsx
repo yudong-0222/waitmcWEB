@@ -130,7 +130,7 @@ const SndThird = () => {
         </div>
         {/* 右半邊 - 圖片部分 Mobile */}
         <motion.div
-          variants={fadeIn('left', 'tween', 0.1, 1)} // 改用 fadeIn 保持一致
+          variants={fadeIn('left', 'tween', 0.1, 1)}
           className={`${styles.flexCenter} flex sm:flex md:flex lg:hidden xl:hidden`}
         >
           <img
