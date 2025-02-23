@@ -7,7 +7,7 @@ import { SNDTitle } from '../components/CustomTexts';
 
 const SndThird = () => {
   return (
-    <section className="relative z-[1] flex items-center justify-center 4k:mt-[58px]" >
+    <section className="relative z-[1] flex items-center justify-center 4k:mt-[58px]">
       <motion.div
         variants={staggerContainer}
         initial="hidden"

@@ -54,7 +54,7 @@ const Backimg = ({url, title, desc}) => {
 };
 
 const Back2 = ({url}) => {
-  return(
+  return (
     <motion.div
       className="flex relative lg:sticky top-0 w-full lg:h-screen items-center justify-center"
       style={{
@@ -66,16 +66,16 @@ const Back2 = ({url}) => {
     />
   );
 };
-//Mobile Background Image 
+// Mobile Background Image 
 // Normal Background Image
-const BackImgMobile = ({url, title, desc}) => {
-  return(
+const BackImgMobile = ({ url, title, desc }) => {
+  return (
     <motion.div 
       className="sticky top-0 h-screen w-full bg-center bg-no-repeat"
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.0 }}
-      variants={zoomIn(0, 0.2)}
+      variants={ zoomIn(0, 0.2) }
       style={{
         backgroundImage: `url(${url})`
       }}
@@ -84,9 +84,9 @@ const BackImgMobile = ({url, title, desc}) => {
     </motion.div>
   );
 };
-//Mobile MapInfo Image
-const Back2Mobile = ({url}) => {
-  return(
+// Mobile MapInfo Image
+const Back2Mobile = ({ url }) => {
+  return (
     <motion.div
       className="relative w-full h-screen bg-center bg-no-repeat bg-contain"
       style={{
@@ -96,13 +96,13 @@ const Back2Mobile = ({url}) => {
   );
 };
 
-const TextBox = ({info, desc}) => {
+const TextBox = ({ info, desc }) => {
   return (
     <motion.div
-      variants={zoomIn(0.2, 0.1)} 
+      variants={ zoomIn(0.2, 0.1) } 
       initial="hidden"
       whileInView="show"
-      viewport={{once: false ,amount:0.25}}
+      viewport={{ once: false ,amount:0.25 }}
       className={`w-full max-w-xs sm:max-w-md bg-gray-700 bg-opacity-80 p-4 sm:p-6 rounded-lg shadow-lg 
         sticky
         top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
