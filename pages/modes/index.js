@@ -25,7 +25,8 @@ const ModesPage = () => {
           loop
           muted
           playsInline
-          preload="auto"
+          preload="none"
+          poster="/prelo.png"
         >
           <source src="/sndhero1.mp4" type="video/mp4" />
         </video>
