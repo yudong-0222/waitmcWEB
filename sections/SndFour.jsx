@@ -15,8 +15,8 @@ const SndFour = ({ scrollYProgress }) => {
             // scale
           }}
         >
-          <Backimg url="https://i.imgur.com/NabwUOO.png" title="經典爆破" />\
-          <Back2 url="https://i.imgur.com/LjWzTdG.png" />
+          <Backimg url="/bmb.webp" title="經典爆破" />\
+          <Back2 url="/mi.webp" />
         </motion.div>
       </div>
       {/* Mobile Verison */}
@@ -24,9 +24,9 @@ const SndFour = ({ scrollYProgress }) => {
         <motion.div
           className="relative"
         >
-          <BackImgMobile url="https://i.imgur.com/NabwUOO.png" title="經典爆破" />\
+          <BackImgMobile url="/bmb.webp" title="經典爆破" />\
           {/* <p>test123</p> */}
-          <Back2Mobile url="https://i.imgur.com/LjWzTdG.png" />
+          <Back2Mobile url="/mi.webp" />
         </motion.div>
       </div>
     </div>
