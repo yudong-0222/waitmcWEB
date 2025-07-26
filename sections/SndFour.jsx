@@ -3,7 +3,7 @@ import { zoomIn } from '../utils/motion';
 
 const SECTION_HEIGHT = 1500;
 
-const SndFour = ({scrollYProgress}) => {
+const SndFour = ({ scrollYProgress }) => {
   return (
     <div>
       {/* Desktop Verison */}
