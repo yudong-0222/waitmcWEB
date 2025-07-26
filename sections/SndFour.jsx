@@ -36,7 +36,7 @@ const SndFour = ({ scrollYProgress }) => {
 // Normal Background Image
 const Backimg = ({url, title, desc}) => {
   return (
-    <motion.div 
+    <motion.div
       className="sticky top-0 h-screen w-full"
       initial="hidden"
       whileInView="show"
