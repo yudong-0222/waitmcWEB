@@ -31,7 +31,7 @@ const SndSeven = () => (
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.5 }}
+      viewport={{ once: true, amount: 0.5 }}
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
         {/* Desktop Verison Picture Icon */}
@@ -104,7 +104,7 @@ const SndSeven = () => (
                 playsInline
                 preload="auto"
             >
-                <source src="/snd_final.mp4" type="video/mp4" />
+                <source src="/o1.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="flex justify-center mt-[40px]">

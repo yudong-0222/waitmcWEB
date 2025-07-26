@@ -16,7 +16,7 @@ const SndFive = ({ scrollYProgress }) => {
           }}
         >
           <Backimg 
-            url={"https://i.imgur.com/ePmppIY.png"} title={"寫實模式"} desc={"模擬真實戰場，寬闊平原上的軍事工藝，在壕溝與散兵坑中伏擊。雙方目標皆為「殲滅所有敵人」。"} />
+            url={"/rrm.webp"} title={"寫實模式"} desc={"模擬真實戰場，寬闊平原上的軍事工藝，在壕溝與散兵坑中伏擊。雙方目標皆為「殲滅所有敵人」。"} />
         </motion.div>
       </div>
       {/* Mobile Verison */}
@@ -24,7 +24,7 @@ const SndFive = ({ scrollYProgress }) => {
         <motion.div
           className="relative"
         >
-          <BackImgMobile url={"https://i.imgur.com/ePmppIY.png"} title={"寫實模式"} desc={"模擬真實戰場，寬闊平原上的軍事工藝，在壕溝與散兵坑中伏擊。雙方目標皆為「殲滅所有敵人」"} />
+          <BackImgMobile url={"/rrm.webp"} title={"寫實模式"} desc={"模擬真實戰場，寬闊平原上的軍事工藝，在壕溝與散兵坑中伏擊。雙方目標皆為「殲滅所有敵人」"} />
         </motion.div>
       </div>
     </div>
