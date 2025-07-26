@@ -30,7 +30,7 @@ const SndFour = ({scrollYProgress}) => {
         </motion.div>
       </div>
     </div>
-  );  
+  );
 };
 
 // Normal Background Image
