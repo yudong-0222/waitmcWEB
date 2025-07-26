@@ -1,48 +1,61 @@
 import React from 'react'
-
-
 import { motion } from 'framer-motion';
 
-import {modes, sndmodes} from '../constants'
 import styles from '../styles';
-import { staggerContainer, textVariant,fadeIn,planetVariants } from '../utils/motion';
-import { CustomTexts, TitleText, TypingText } from '../components';
-import Modes from '../components/Modes';
+import { staggerContainer,fadeIn } from '../utils/motion';
+import { SNDTitle } from '../components/CustomTexts';
 
-const Snd = () => {
+const SndHero = () => {
   return (
-  <section className={`${styles.yPaddings} ${styles.paddings} sm:pl-16 pl-6 relative z-10`}>
+  <div className="relative z-[100] min-h-[88vh]">
     <motion.div
-        variants={staggerContainer}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      className="w-full"
+    >
+      <motion.div
+        variants={fadeIn('up', 'tween', 0.2, 1)}
+        className="flex flex-col items-center"
       >
-        <motion.div
-          variants={planetVariants('left')}
-          className={`flex-1 ${styles.flexCenter}`}
-        >
-            <img
-              src="/sndh.png"
-              alt="get-started"
-              className="object-contain z-10 rounded-3xl"
-            />
-        </motion.div>
-        <motion.div
-          variants={fadeIn('right', 'tween', 0.2, 1)}
-          className="flex-[0.95] flex justify-center flex-col"
-        >
-          <TitleText title={<>Search And Destroy 分流</>} />
-          <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
-            {sndmodes.map((feature) => (
-              <Modes key={feature.title} {...feature} />
-            ))}
+        {/* Desktop Verison */}
+        <div className="hidden sm:flex md:hidden lg:flex xl:flex">
+          <div className="flex justify-center space-x-6 mt-[128px]">
+            <span className="text-[#1797FF] font-bold sm:text-[40px] md:text-[40px] lg:text-[40px] xl:text-[95px] 4k:text-[128px] text-[40px]">Search</span>
+            <motion.div
+              variants={fadeIn('down', 'tween', 0.6, 1)}
+              className="flex flex-col items-center"
+            >
+              <span className="text-[#FFFFFF] font-bold sm:text-[40px] md:text-[40px] lg:text-[40px] xl:text-[95px] 4k:text-[128px] text-[40px]">And</span>
+            </motion.div>
+            <span className="text-[#FF3939] font-bold sm:text-[40px] md:text-[40px] lg:text-[40px] xl:text-[95px] 4k:text-[128px] text-[40px]">Destroy</span>
           </div>
-        </motion.div>
+        </div>
+        {/* Mobile Verison */}
+        <div className="sm:hidden md:flex lg:hidden xl:hidden flex">
+          <div className="flex justify-center space-x-2 mt-[128px]">
+            <span className="text-[#1797FF] font-bold lg:text-[82px] text-[42px]">Search</span>
+            <motion.div
+              variants={fadeIn('down', 'tween', 0.6, 1)}
+              className="flex flex-col items-center"
+            >
+              <span className="text-[#FFFFFF] font-bold lg:text-[82px] text-[42px]">And</span>
+            </motion.div>
+            <span className="text-[#FF3939] font-bold lg:text-[82px] text-[42px]">Destroy</span>
+          </div>
+        </div>           
       </motion.div>
-  </section>
-  )
+      <motion.div
+        variants={fadeIn('left', 'tween', 0.8, 1.2)}
+        className="flex flex-col items-center"
+      >
+        <div className="flex justify-center">
+            <span className="text-[#FFFF] text-[28px]">瞄準、射擊——生死對決</span>
+        </div>
+      </motion.div>
+    </motion.div>
+  </div>
+  );
 }
 
-export default Snd
+export default SndHero;

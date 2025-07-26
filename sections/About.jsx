@@ -17,7 +17,7 @@ const About = () => (
     viewport={{once:false, amount: 0.25}}
     className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About" textStyles="text-center" />
+      <TypingText title="| Intro" textStyles="text-center" />
       <motion.p
       variants={fadeIn('up', 'tween',0.2,1)}
       className='mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white'>
@@ -36,7 +36,7 @@ const About = () => (
         一同體驗
         <span className='font-extrabold text-white'> PvP </span>
         和
-        <span className='font-extrabold text-[#3865ff]'> Search </span>
+        <span className='font-extrabold text-[#1d9eff]'> Search </span>
         <span className='font-extrabold text-white'> And </span>
         <span className='font-extrabold text-[#ff3838]'> Destroy</span>
       </motion.p>

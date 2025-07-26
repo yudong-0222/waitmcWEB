@@ -17,7 +17,7 @@ const Insights = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <TypingText title="| Insight" textStyles="text-center" />
-      <TitleText title={<>探索 WAIT Network</>} textStyles="text-center" />
+      <TitleText title={<>WAIT Network 相關</>} textStyles="text-center" />
         <div className="mt-[50px] flex flex-col gap-[30px]">
           {insights.map((item, index) => (
             <a href={item.link} target='_blank' key={`insight-${index}`}>

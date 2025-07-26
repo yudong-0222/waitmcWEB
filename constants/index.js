@@ -6,7 +6,8 @@ export const exploreWorlds = [
   },
   {
     id: 'world-2',
-    imgUrl: '/sndh.png',
+    // imgUrl: '/sndh.png',https://i.imgur.com/Y0141yx.png
+    imgUrl: 'https://i.imgur.com/ca3N3y3.png',
     title: '[1.21.4] 3D 槍械⭐\n Search And Destroy',
   },
   {
@@ -16,8 +17,8 @@ export const exploreWorlds = [
   },
   {
     id: 'world-4',
-    imgUrl: '/maps.png',
-    title: '多樣、多變化的遊戲地圖🚀',
+    imgUrl: 'https://i.imgur.com/WvRQA1r.png',
+    title: '經典還原遊戲地圖🚀',
   },
   {
     id: 'world-5',
@@ -33,7 +34,7 @@ export const newsLA = [
   },  
   {
     title: '[！] 伺服器重心將逐漸移至 SND 開發上。',
-    subtitle: '⭐ We are moving our focus to SND development.\n🔻 PvP Practice will not longer have feature updates.',
+    subtitle: '⭐ 我們正在將重心轉移至 SND 開發！ \n🔻 PvP Practice 將不再有新功能更新。',
   },
   {
     title: '[SND] 遊戲版本更新至 1.21.4',
@@ -43,16 +44,16 @@ export const newsLA = [
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: '地圖最佳化',
+    imgUrl: 'https://i.imgur.com/tACMblk.png',
+    title: '🎯 玩家競技',
     subtitle:
-        '除了新增一些地圖\n我們也著手修正舊版的地圖\n最佳化每一張地圖的細節\n使其更符合玩家戰鬥需求。',
+        '因為熱愛 Minecraft 而架設的臺灣伺服器\n主打「玩家競技 ｜Player vs. Player」',
   },
   {
-    imgUrl: '/gunla.svg',
-    title: 'SND Ver 1.14.0',
+    imgUrl: 'https://i.imgur.com/2of6l5c.png',
+    title: '✨３Ｄ 槍械',
     subtitle:
-        "WAIT Network 開發\n將 FPS 射擊遊戲\n復刻到 Minecraft 中！\n不須安裝任何模組即可遊玩！",
+        "3D 槍戰｜經典爆破｜多種槍枝｜\n不須安裝任何模組即可遊玩！"
   }
   
 ];
@@ -105,10 +106,10 @@ export const navLinks = [
     id: "/moderator",
     title: "MODERATOR",
   },
-  {
-    id: "https://discord.gg/RNJQFYbjVp",
-    title: "DISCORD",
-  },
+  // {
+  //   id: "https://discord.gg/RNJQFYbjVp",
+  //   title: "DISCORD",
+  // },
 ];
 
 export const admin = [
@@ -189,7 +190,7 @@ export const insights = [
     title: '巴哈姆特 - WAIT Network',
     link: 'https://forum.gamer.com.tw/C.php?bsn=18673&snA=196728',
     subtitle:
-        '【自架】【1.8 - 1.19.4】Wait Network 丨1.8PvP丨低延遲 高穩定丨...',
+        '【自架】【1.21.4】WAIT Network 丨槍戰丨槍械丨3D 槍械丨槍戰伺服器丨經典爆破丨',
   },
 ];
 
