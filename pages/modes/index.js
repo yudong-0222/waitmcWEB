@@ -28,7 +28,7 @@ const ModesPage = () => {
           preload="metadata"
           poster="/prelo.png"
         >
-          <source src="/sndhero1.mp4" type="video/mp4" />
+          <source src="/sndhero1.webm" type="video/webm" />
         </video>
         <Navbar />
         <SndHero />

@@ -7,7 +7,7 @@ export const exploreWorlds = [
   {
     id: 'world-2',
     // imgUrl: '/sndh.png',https://i.imgur.com/Y0141yx.png
-    imgUrl: 'https://i.imgur.com/ca3N3y3.png',
+    imgUrl: '/fps.webp',
     title: '[1.21.4] 3D 槍械⭐\n Search And Destroy',
   },
   {

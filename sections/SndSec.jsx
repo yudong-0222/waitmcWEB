@@ -137,7 +137,7 @@ const SndSec = () => {
           className={`w-full lg:w-1/2 relative ${styles.flexCenter} hidden sm:hidden lg:flex`}
         >
           <img
-            src="https://i.imgur.com/sXhb6OV.png"
+            src="/sxh.webp"
             alt="get-started"
             className="w-full h-screen object-cover"
           />
@@ -148,7 +148,7 @@ const SndSec = () => {
           className={` ${styles.flexCenter} flex sm:flex md:flex lg:hidden xl:hidden`}
         >
           <img
-            src="https://i.imgur.com/sXhb6OV.png"
+            src="/sxh.webp"
             alt="get-started"
             className="w-full h-full object-contain"
           />
